@@ -26,6 +26,7 @@
   "homepage": "https://trungtruc056.github.io/talk",
   "private": true,
   "dependencies": {
+    "@vue/cli-service": "^4.5.13",
     "express": "^4.17.1",
     "socket.io": "^4.0.1",
     "vue": "^2.6.12"
