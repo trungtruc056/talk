@@ -1,29 +1,35 @@
 {
-	"name": "talk",
-	"version": "2.0.4",
-	"description": "A free video call app for the web.",
-	"main": "server.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/vasanthv/talk.git"
-	},
-	"keywords": [
-		"webrtc",
-		"socket.io",
-		"video"
-	],
-	"author": "Vasanth.V <imvasanthv@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/vasanthv/talk/issues"
-	},
-	"homepage": "https://github.com/vasanthv/talk#readme",
-	"dependencies": {
-		"express": "^4.17.1",
-		"socket.io": "^4.0.1",
-		"vue": "^2.6.12"
-	}
+  "name": "talk",
+  "version": "2.0.4",
+  "description": "A free video call app for the web.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trungtruc056/talk.git"
+  },
+  "keywords": [
+    "webrtc",
+    "socket.io",
+    "video"
+  ],
+  "author": "Vasanth.V <imvasanthv@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasanthv/talk/issues"
+  },
+  "homepage": "https://trungtruc056.github.io/talk",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
